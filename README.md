@@ -1,4 +1,4 @@
-### Desafío a resolver de Maquetación:​
+# Desafío a resolver de Maquetación:​
 
 - [X] Subir la página a Github pages o Netlify + codigo subido a Github
 
