@@ -1,13 +1,24 @@
 /* fonts from google */
 @import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro:700&display=swap');
 
-.default {
+.default, .rounded {
     width: 100%;
     max-width: 1000px;
     margin: auto;
-    display: flex;
     border: 1px solid #f4f1f1;
     border-radius: 8px;
+}
+.default {
+    display: flex;
+}
+.rounded {
+    text-align: center;
+    margin: 20px auto;
+}
+.rounded__image img {
+    width: 100px;
+    border-radius: 100%;
+    margin: 13px;
 }
 .default__image {
     width: 50%;
@@ -24,6 +35,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.rounded__content {
+    padding: 0 50px;
 }
 .default__content div {
     padding: 50px;
@@ -61,5 +75,12 @@
     }
     .default__content {
         width: 100%;
+    }
+    .rounded {
+        display: flex;
+    }
+    .rounded__content {
+        text-align: left;
+        padding: 20px;
     }
 }
